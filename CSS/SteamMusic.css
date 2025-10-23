@@ -1,0 +1,103 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+
+#header{
+    width:1000px; 
+    height: 80px;
+    background-color: rgb(183, 0, 255);
+}
+
+body{
+    background-image: url('fundo.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:local;
+    background-position: center;
+    background-color:rgb(0, 0, 0);
+}
+
+    ul{
+        list-style: none; width: 720px; float:left;
+    }
+
+    ul a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 236, 39);
+    padding: 20px;
+    font-family: 'Broadway', sans-serif;
+    font-size: 31px;
+    }
+
+    ul a:hover{
+    background-color: rgb(0, 236, 39);
+    color: rgb(183, 0, 255);
+    }
+
+    ul li{
+        float: left;
+    }
+
+    div{
+        margin: 25px;
+    }
+
+#set1{
+  display: flex;
+  justify-content: center;
+
+}
+#set2{
+    display: flex;
+    justify-content: center;
+}
+#set3{
+    display: flex;
+    justify-content: center;
+}
+
+#set1 div{
+    background-color: rgb(0, 236, 39);
+    padding: 10px;
+    margin-right: 91px;
+    margin-bottom: 61px;
+}
+#set2 div{
+    background-color: rgb(183, 0, 255);
+    padding: 10px;
+    margin-right: 91px;
+    margin-bottom: 61px;
+}
+#set3 div{
+    background-color: rgb(0, 236, 39);
+    padding: 10px;
+    margin-right: 91px;
+    margin-bottom: 61px;
+}
+
+div img{
+    width: 200px;
+    height: 200px;
+
+}
+
+h1#link2{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-family: 'Broadway', sans-serif;
+}
+
+h2#link{
+    font-family: 'Harlow Solid Italic', sans-serif;                                      
+    font-size: 100px;
+    color:rgb(255, 255, 255);
+}
+
+p#link2{
+    font-size:20px;
+    color:black;
+    font-family: 'Broadway', sans-serif;
+}

@@ -1,0 +1,108 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+h1{
+    color: chartreuse;
+ }
+ 
+ #header{
+     width:1000px; height: 80px;
+     background-color: rgb(183, 0, 255);
+ }
+ 
+ ul{
+     list-style: none; width: 720px; float:left;
+ }
+ 
+ ul a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 236, 39);
+    padding: 20px;
+    font-size: 31px;
+ }
+ 
+ ul a:hover{
+ background-color: rgb(0, 236, 39);
+ color: rgb(183, 0, 255);
+ }
+ 
+ ul li{
+     float: left;
+ }
+ 
+ div{
+     display: flex;
+     margin: 11px;
+     width: 600px;
+     height: 90px;
+     background-color: rgb(183, 0, 255);
+     
+ }
+ 
+ img{
+     height: 90px; width: 105px;
+ }
+ 
+ body{
+     background-image: url('fundo.png');
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-attachment:local;
+     background-color:rgb(0, 0, 0);
+ }
+
+div#header{
+    font-family: 'Broadway', sans-serif;    
+}
+ 
+h1#generos{
+    font-size: 50px;
+    font-family: 'Broadway', sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+div#rock{
+    font-family: 'Broadway', sans-serif;
+    font-size:40px;
+    
+}
+
+div#Pop{
+    font-family: 'Broadway', sans-serif;
+    font-size:40px; 
+}
+
+div#Sertanejo{
+    font-family: 'Broadway', sans-serif;
+    font-size:40px;
+}
+
+div#Hip-Hop{
+    font-family: 'Broadway', sans-serif;
+    font-size:40px;  
+}
+
+div#Rap{
+    font-family: 'Broadway', sans-serif;
+    font-size:40px;
+}
+
+div#country{
+    font-family: 'Broadway', sans-serif;
+    font-size:40px; 
+}
+
+div#Funk{
+    font-family: 'Broadway', sans-serif;
+    font-size:40px;
+}
+
+div#Eletronica{
+    font-family: 'Broadway', sans-serif;
+    font-size:40px;
+}
+
+
